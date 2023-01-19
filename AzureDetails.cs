@@ -1,0 +1,16 @@
+﻿namespace ConsoleApp1
+{
+    public static class AzureDetails
+    {
+        public static string ClientID = "768aaa2d-b574-4d8f-8efa-0f71c3bc18c4";
+        public static string ClientSecret = "iFi8Q~MJmR6G0unK1N-DxiUIGjY9CgD2ClcmRbnc";
+        public static string TenantID = "4dfedb10-35ca-4e46-9c2a-0fa40d6968c0";
+        public static string SubscriptionID = "<Subscription ID>";
+        public static string Response { get; set; }
+        public static string Location = "eastus";
+        public static string ResourceGroupName = "jdBotsRG";
+        public static string token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyIsImtpZCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyJ9.eyJhdWQiOiJodHRwczovL2FwaS5idXNpbmVzc2NlbnRyYWwuZHluYW1pY3MuY29tIiwiaXNzIjoiaHR0cHM6Ly9zdHMud2luZG93cy5uZXQvNGRmZWRiMTAtMzVjYS00ZTQ2LTljMmEtMGZhNDBkNjk2OGMwLyIsImlhdCI6MTY3Mzk0ODc5NSwibmJmIjoxNjczOTQ4Nzk1LCJleHAiOjE2NzM5NDk2OTUsImFjciI6IjEiLCJhaW8iOiJBVFFBeS84VEFBQUFGZ3Jpa2oxY0Uycms1WEJwNjNjemtHcXhrVUl2dVoyM2pKRVM2Qmhoc2FkRW9PWFNTTG1hVG9mbzVibmtyN2hkIiwiYW1yIjpbInB3ZCJdLCJhcHBpZCI6Ijc2OGFhYTJkLWI1NzQtNGQ4Zi04ZWZhLTBmNzFjM2JjMThjNCIsImFwcGlkYWNyIjoiMSIsImZhbWlseV9uYW1lIjoiTGltaXRlZCIsImdpdmVuX25hbWUiOiJCcmlnaHRzb2Z0IFRlY2hub2xvZ2llcyIsImlwYWRkciI6IjE5Ny4yNDguMTEzLjE5OSIsIm5hbWUiOiJCcmlnaHRzb2Z0IFRlY2hub2xvZ2llcyBMaW1pdGVkIiwib2lkIjoiYTQxYWU4ZGYtOTBjZS00YmMyLThlYjMtZDJmZDQ4YmFiZjRhIiwicHVpZCI6IjEwMDMyMDAwREJGRjRBQTYiLCJyaCI6IjAuQVhRQUVOdi1UY28xUms2Y0tnLWtEV2xvd0QzdmJabHNzMU5CaGdlbV9Ud0J1SjkwQUtrLiIsInNjcCI6IkZpbmFuY2lhbHMuUmVhZFdyaXRlLkFsbCB1c2VyX2ltcGVyc29uYXRpb24iLCJzdWIiOiI0UEFsZ296eUYwU05NUE13NzQ3Y0RtRE83NXF2YlZVN0J3T3R4bE5fYVVVIiwidGlkIjoiNGRmZWRiMTAtMzVjYS00ZTQ2LTljMmEtMGZhNDBkNjk2OGMwIiwidW5pcXVlX25hbWUiOiJjb25zdWx0YW50QGJyaWdodHNvZnQuY28ua2UiLCJ1cG4iOiJjb25zdWx0YW50QGJyaWdodHNvZnQuY28ua2UiLCJ1dGkiOiJVYXRCa0tlNkJrZVJYaHY1R1ZwTkFBIiwidmVyIjoiMS4wIiwid2lkcyI6WyI2MmU5MDM5NC02OWY1LTQyMzctOTE5MC0wMTIxNzcxNDVlMTAiLCJiNzlmYmY0ZC0zZWY5LTQ2ODktODE0My03NmIxOTRlODU1MDkiXX0.oUU34Nl-tjL6a76LWhNoCZQ28lxjT7DtXwO2NrxX-lEwrKXWfcyROBP_lxfxlPJELQsPU1VI7693WaV9ARA4-2B928FuU0k7IdBFUbHBBQZ9v8qaNXa-F0WMaStJrZDia2G_eizPKJGOQ74XXRGW9Mn-gjOuAwwaJGxAVOSaRJY8ICm1ibfhXhPXCQUJo3x7HdRFo_t4gQOPf6tFJBnW5R1g3tkwtjL7vfHUeKzAxuz4QBTpJf7rTkyAy8mZ5KjJ4PF6g1qVtn2gBG9GcB_g9_2y-3sRfwffBfGiSpO56haJcK0vY9-oMM6s_xv1AZhHz7jHQX8qYlN6e87dRqc8mg";
+        public static string AccessToken { get; internal set; }
+        
+    }
+}
